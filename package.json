@@ -1,0 +1,37 @@
+{
+    "name": "@bairong/webrtc-node",
+    "version": "0.1.0",
+    "description": "[练习] WebRTC+NodeJs 构建视频聊天服务",
+    "main": "index.js",
+    "scripts": {
+        "watch": "npx babel ./src -d lib --watch",
+        "build": "npx babel ./src -d lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/purple97/webrtc-node.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/purple97/webrtc-node/issues"
+    },
+    "homepage": "https://github.com/purple97/webrtc-node#readme",
+    "dependencies": {
+        "@babel/runtime": "^7.15.3",
+        "express": "^4.17.1",
+        "socket.io": "^4.4.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.7.0",
+        "@babel/preset-env": "^7.7.0",
+        "@babel/preset-react": "^7.0.0",
+        "@babel/plugin-proposal-class-properties": "^7.7.0",
+        "@babel/plugin-proposal-object-rest-spread": "^7.7.0",
+        "babel-eslint": "^10.1.0",
+        "babel-plugin-add-module-exports": "^1.0.4",
+        "eslint": "^7.32.0",
+        "prettier": "^2.1.2"
+    }
+}
